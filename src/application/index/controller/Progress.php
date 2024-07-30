@@ -1,0 +1,2 @@
+<?php
+ namespace app\index\controller; use think\Controller; use think\Log; use think\Request; use think\Debug; use app\index\logic\Progress as ProgressLogic; class Progress extends Common { public function querySubscribersImportFileProgress() { $currentProgress = ProgressLogic::I()->queryProgress(ProgressLogic::PROGRESS_SUBSCRIBERS_IMPORT_FILE_TYPE); return ajaxSuccess("\x73\x75\x63\143\x65\163\163", $currentProgress); } }
