@@ -84,9 +84,9 @@ class Sms extends Base{
         }
         //send sms
         $Action = 'SendSms';
-        $SignName = '童优网络';
-        $AccessKeyId = 'LTAIM7PENBBivZqB';
-        $AccessKeySecret = 'psmPoXAiwXr3mJcNh8cwA1a7diqTnM';
+        $SignName = '';
+        $AccessKeyId = '';
+        $AccessKeySecret = '';
 
         $SignatureMethod = 'HMAC-SHA1';
         $SignatureVersion = '1.0';
