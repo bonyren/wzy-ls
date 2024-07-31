@@ -4,14 +4,17 @@
 
 《CamelList轻量级邮件营销系统》是一套轻量级的电子邮件营销系统软件。
 
+### 技术支持
+[wzycoding@qq.com](mailto:wzycoding@qq.com)
+
 ### 运行环境
-php 7.4
-mysql/MariaDB
-Apache/Nginx Http Server
+- php 7.4
+- mysql/MariaDB
+- Apache/Nginx Http Server
  
 ### 系统依赖
-thinkphp 5.0 framework
-php mailparse extension
+- thinkphp 5.0 framework
+- php mailparse extension
 
 ### 部署步骤
 1. 部署代码
